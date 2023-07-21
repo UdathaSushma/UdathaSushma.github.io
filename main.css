@@ -1,0 +1,47 @@
+.bannerBgImage{
+    height: 100vh;
+    width: 100%;
+    background: url("lap1.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: left;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+    color: black;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+    color: white;
+}
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+/* #about{
+    height: 400px;
+} */
+.me-img{
+    /* border: 1px solid green; */
+    height:400px;
+    width: 300px;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}
